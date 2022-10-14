@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "liang <liangn@yonyou.com>",
+  "scripts": {
+    "dev": "cross-env PORT=3000 umi dev",
+    "build": "umi build",
+    "build:a": "cross-env ANALYZE=1 umi build",
+    "setup": "umi setup",
+    "start": "npm run dev",
+    "lint": "umi lint src --eslint-only  --fix"
+  },
+  "dependencies": {
+    "umi": "^4.0.25"
+  },
+  "devDependencies": {
+    "@umijs/lint": "^4.0.25",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.25.0",
+    "stylelint": "^14.13.0"
+  }
+}
